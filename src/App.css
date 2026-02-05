@@ -1,0 +1,16 @@
+main {
+  min-height: 100vh;
+}
+
+.footer {
+  background-color: var(--bg-secondary);
+  padding: var(--spacing-xl) 0;
+  text-align: center;
+  border-top: 1px solid var(--border);
+}
+
+.footer p {
+  margin: 0;
+  color: var(--text-secondary);
+  font-size: 0.9rem;
+}

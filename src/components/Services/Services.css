@@ -1,0 +1,113 @@
+.services {
+  background-color: var(--bg-primary);
+}
+
+.services-subtitle {
+  text-align: center;
+  color: var(--text-secondary);
+  max-width: 700px;
+  margin: 0 auto var(--spacing-2xl);
+  font-size: 1.1rem;
+}
+
+.services-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: var(--spacing-xl);
+  margin-bottom: var(--spacing-2xl);
+}
+
+.service-card {
+  background-color: var(--bg-secondary);
+  padding: var(--spacing-xl);
+  border-radius: var(--radius-lg);
+  border: 1px solid var(--border);
+  transition: all var(--transition-normal);
+  display: flex;
+  flex-direction: column;
+}
+
+.service-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 12px 24px var(--shadow);
+  border-color: var(--primary);
+}
+
+.service-icon {
+  width: 64px;
+  height: 64px;
+  margin-bottom: var(--spacing-md);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(135deg, var(--primary), var(--accent));
+  border-radius: var(--radius-md);
+  color: white;
+}
+
+.service-title {
+  font-size: 1.4rem;
+  margin-bottom: var(--spacing-sm);
+  color: var(--text-primary);
+}
+
+.service-description {
+  color: var(--text-secondary);
+  line-height: 1.6;
+  margin-bottom: var(--spacing-md);
+  flex-grow: 1;
+}
+
+.service-features {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.service-features li {
+  color: var(--text-secondary);
+  padding: var(--spacing-xs) 0;
+  font-size: 0.95rem;
+}
+
+.service-features li::before {
+  content: '✓ ';
+  color: var(--primary);
+  font-weight: bold;
+  margin-right: var(--spacing-xs);
+}
+
+.services-cta {
+  text-align: center;
+  padding: var(--spacing-xl);
+  background: linear-gradient(135deg, var(--bg-tertiary), var(--bg-secondary));
+  border-radius: var(--radius-lg);
+  border: 1px solid var(--border);
+}
+
+.cta-text {
+  font-size: 1.3rem;
+  font-weight: 600;
+  color: var(--text-primary);
+  margin-bottom: var(--spacing-md);
+}
+
+.btn-large {
+  padding: var(--spacing-md) var(--spacing-xl);
+  font-size: 1.1rem;
+}
+
+/* Mobile Responsive */
+@media (max-width: 768px) {
+  .services-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .services-subtitle {
+    font-size: 1rem;
+  }
+
+  .cta-text {
+    font-size: 1.1rem;
+  }
+}
