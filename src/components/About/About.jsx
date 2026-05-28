@@ -13,43 +13,36 @@ const About = () => {
         
         <div className="about-content">
           <div className="about-text">
-            <p>
-              I'm a <strong>full-stack developer</strong> with over <strong>3 years of experience</strong> building 
-              production-ready web applications using the <strong>MERN stack</strong>. Whether you're a startup 
-              launching your MVP or an established business scaling your tech infrastructure, I create solutions 
-              that combine technical excellence with real business value.
-            </p>
-            
-            <p>
-              My approach focuses on <strong>security, scalability, and user experience</strong>. From designing 
-              RESTful APIs and implementing JWT authentication to building responsive React interfaces, I deliver 
-              clean, maintainable code that your team can build on for years to come.
-            </p>
-            
-            <p>
-              I'm currently exploring <strong>AI and machine learning integration</strong>, building multi-agent 
-              systems and working with cutting-edge tools like Google's Agent Development Kit. This keeps my 
-              solutions at the forefront of what's possible in modern web development.
-            </p>
-            
-            <p>
-              <strong>Available for:</strong> Full-time employment opportunities and select freelance projects. 
-              Let's discuss how I can help bring your vision to life.
-            </p>
+            <p>I'm a <strong>full-stack software engineer</strong> based in Claremont, CA, building production web applications using <strong>React, TypeScript, Node.js, and MongoDB</strong>. I work with startups and small businesses to ship clean, maintainable software that solves real problems.
+          </p>
+          <p>
+            My background is deliberately non-linear - a decade of teaching, years of 
+            consulting, and a transition into engineering through Per Scholas. That path 
+            gave me something most engineers don't have: the ability to communicate clearly with non-technical stakeholders and understand why software matters beyond the code.
+          </p>
+          <p>
+            I build with <strong>AI as a core part of the stack</strong> - integrating 
+            Anthropic Claude, Groq, and OpenAI APIs into production applications, and 
+            contributing to multi-agent systems using Google's Agent Development Kit. 
+            I use Claude Code and GitHub Copilot as daily development tools, not experiments.
+          </p>
+          <p>
+            <strong>Available for:</strong> Full-time engineering roles and select freelance projects. Remote preferred, LA area considered.
+          </p>
           </div>
 
           <div className="about-highlights">
             <div className="highlight-card">
-              <div className="highlight-number">3+</div>
+              <div className="highlight-number">1+</div>
               <div className="highlight-label">Years Experience</div>
             </div>
             <div className="highlight-card">
-              <div className="highlight-number">10+</div>
+              <div className="highlight-number">5+</div>
               <div className="highlight-label">Projects Completed</div>
             </div>
-            <div className="highlight-card">
-              <div className="highlight-number">100%</div>
-              <div className="highlight-label">Client Satisfaction</div>
+              <div className="highlight-card">
+              <div className="highlight-number">3</div>
+              <div className="highlight-label">Languages Spoken</div>
             </div>
           </div>
         </div>
