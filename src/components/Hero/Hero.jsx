@@ -24,26 +24,26 @@ const Hero = () => {
             Hi, I'm <span className="gradient-text">Ali Kirat</span>
           </h1>
           <h2 className="hero-title fade-in">
-            <span className="gradient-text">Full-Stack Developer</span>
+            <span className="gradient-text">Full-Stack Software Engineer</span>
           </h2>
           <p className="hero-subtitle fade-in">
-            Open to Employment & Freelance Projects
+            Open to Full-Time Roles & Freelance Projects
           </p>
           <p className="hero-description fade-in">
-            MERN stack specialist with 3+ years of experience building scalable web applications. 
-            I help businesses and startups launch secure, user-focused software solutions—from 
-            custom web apps to AI-powered tools.
+            Full-stack engineer building production web applications with React, 
+            TypeScript, Node.js, and MongoDB. I integrate LLM APIs and AI agent 
+            systems as a core part of how I build — not as an afterthought.
           </p>
 
           {/* Tech Stack Badges */}
           <div className="tech-badges fade-in">
             <span className="badge">JavaScript</span>
             <span className="badge">React</span>
-            <span className="badge">Node.js</span>
-            <span className="badge">Express.js</span>
             <span className="badge">TypeScript</span>
+            <span className="badge">Node.js</span>
             <span className="badge">Python</span>
-            <span className="badge">AI Integration</span>
+            <span className="badge">MongoDB</span>
+            <span className="badge">LLM APIs</span>
           </div>
 
           {/* CTAs */}
