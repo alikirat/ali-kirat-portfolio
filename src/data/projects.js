@@ -42,7 +42,7 @@ export const projects = [
     title: "Customer Support Graph Agent",
     description: "A multi-agent customer support system built with Google ADK 2.0, featuring a graph workflow that classifies and routes shipping queries using LLM agents.",
     longDescription: "A production-grade customer support workflow constructed using Google's Agent Development Kit (ADK) 2.0. The graph workflow utilizes a Pydantic-based LLM classifier to categorize user queries (shipping vs. unrelated), and routes shipping queries to a dedicated FAQ agent with playful, emoji-rich response formatting, while politely declining out-of-scope inquiries.",
-    image: "/images/customer-support.png",
+    image: "/images/customer-support-agent.png",
     githubUrl: "https://github.com/alikirat/customer-support-agent",
     tags: ["Python", "Google ADK 2.0", "Pydantic", "agents-cli", "Gemini AI", "Graph Workflows"],
     featured: true,
