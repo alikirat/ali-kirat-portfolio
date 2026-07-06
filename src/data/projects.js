@@ -39,6 +39,24 @@ export const projects = [
   },
   {
     id: 3,
+    title: "Customer Support Graph Agent",
+    description: "A multi-agent customer support system built with Google ADK 2.0, featuring a graph workflow that classifies and routes shipping queries using LLM agents.",
+    longDescription: "A production-grade customer support workflow constructed using Google's Agent Development Kit (ADK) 2.0. The graph workflow utilizes a Pydantic-based LLM classifier to categorize user queries (shipping vs. unrelated), and routes shipping queries to a dedicated FAQ agent with playful, emoji-rich response formatting, while politely declining out-of-scope inquiries.",
+    image: "/images/customer-support.png",
+    githubUrl: "https://github.com/alikirat/customer-support-agent",
+    tags: ["Python", "Google ADK 2.0", "Pydantic", "agents-cli", "Gemini AI", "Graph Workflows"],
+    featured: true,
+    highlights: [
+      "ADK 2.0 graph workflow architecture",
+      "Sequential and conditional routing with Edge.chain()",
+      "Pydantic-based classification schema",
+      "Robust state management (user_query and inquiry_category)",
+      "Playful and emoji-rich shipping FAQ node",
+      "Comprehensive unit testing and ruff/ty check validation"
+    ]
+  },
+  {
+    id: 4,
     title: "AI Chatbot",
     description: "Intelligent chatbot application powered by Groq AI, designed for fast and efficient conversational responses. Features a React frontend with a Node.js/Express backend for AI processing.",
     longDescription: "Full-stack chatbot demonstrating AI integration capabilities and modern web development practices. Handles real-time conversations with optimized API interactions.",
@@ -57,7 +75,7 @@ export const projects = [
     ]
   },
   {
-    id: 4,
+    id: 5,
     title: "GitHub Repository Gallery",
     description: "Dynamic single-page React application that leverages the GitHub REST API to showcase repositories. Features asynchronous data fetching, client-side filtering, and responsive design with clean state management.",
     longDescription: "A polished portfolio piece demonstrating API integration, error handling, and modern React patterns. Built with component modularity and user experience in mind.",
