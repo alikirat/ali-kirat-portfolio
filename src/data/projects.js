@@ -2,7 +2,7 @@ export const projects = [
   {
     id: 1,
     title: "Atlas Taxi",
-    description: "Production-ready full-stack ride booking platform built for a small taxi business. Features JWT authentication, role-based access control, admin dashboard with search and sorting, and MongoDB data persistence with performance indexing.",
+    description: "Production-ready full-stack ride booking platform built for a small taxi business. Features JWT authentication, role-based access control, admin dashboard with search and sorting, and MongoDB data persistence with performance indexing. Source-available (PolyForm Shield).",
     longDescription: "A comprehensive MERN stack application that handles user registration, ride scheduling, and admin management. Built with 12+ protected API endpoints, secure authentication using httpOnly cookies, and deployed across Netlify, Render, and MongoDB Atlas.",
     image: "/images/atlas-taxi.png",
     liveUrl: "https://atlastaxi.netlify.app",
@@ -23,7 +23,7 @@ export const projects = [
   {
     id: 6,
     title: "JobMatch AI",
-    description: "AI-powered job search assistant that ingests job postings, scores them against your resume, analyzes skill gaps, and helps optimize your resume content — surfaced through a swipeable review interface.",
+    description: "AI-powered job search assistant that ingests job postings, scores them against your resume, analyzes skill gaps, and helps optimize your resume content — surfaced through a swipeable review interface. Source-available (PolyForm Noncommercial).",
     longDescription: "A full-stack monorepo built around a Google ADK 2.0 agent graph (ingest → ATS gate check → semantic fit scoring → gap analysis → resume optimization), a FastAPI backend with MongoDB persistence, and a React + TypeScript frontend for reviewing scored jobs. Licensed for noncommercial use only.",
     image: "/images/jobmatch-ai.png",
     githubUrl: "https://github.com/alikirat/jobmatch-ai",
