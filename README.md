@@ -2,7 +2,7 @@
 
 A modern, responsive portfolio website built with React. Optimized for **both employment opportunities and freelance client acquisition**.
 
-**⚠️ License**: This portfolio is protected under CC BY-NC 4.0. You may view and learn from this code, but cannot use it as your own portfolio.
+**License**: MIT — see below.
 
 ## ✨ Features
 
@@ -73,9 +73,7 @@ npm run build
 
 ## 📄 License
 
-Creative Commons Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)
-
-See [LICENSE](LICENSE) file for details.
+MIT — see [LICENSE](LICENSE) file for details.
 
 ---
 
