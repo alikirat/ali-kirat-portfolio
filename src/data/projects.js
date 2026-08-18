@@ -59,20 +59,20 @@ export const projects = [
   {
     id: 4,
     title: "AI Chatbot",
-    description: "Intelligent chatbot application powered by Groq AI, designed for fast and efficient conversational responses. Features a React frontend with a Node.js/Express backend for AI processing.",
-    longDescription: "Full-stack chatbot demonstrating AI integration capabilities and modern web development practices. Handles real-time conversations with optimized API interactions.",
+    description: "Chat app powered by the Groq API, with user accounts and chat history scoped per user. React frontend, Express/MongoDB backend.",
+    longDescription: "Full-stack chatbot with JWT-based authentication: each account has its own private conversation history, backed by a REST API with per-user access control.",
     image: "/images/chatbot.png",
     liveUrl: "https://akdev-chatbot.netlify.app/",
     githubFrontend: "https://github.com/alikirat/chatbot",
     githubBackend: "https://github.com/alikirat/chatbot-backend",
-    tags: ["React", "Node.js", "Groq AI", "Express.js", "JavaScript", "API Integration"],
+    tags: ["React", "Node.js", "Groq AI", "Express.js", "MongoDB", "JWT Auth"],
     featured: false,
     highlights: [
-      "Groq AI integration",
-      "Real-time chat interface",
-      "Express.js backend API",
-      "Optimized response handling",
-      "Modern UI/UX design"
+      "User accounts with JWT authentication",
+      "Chats scoped per user, no shared data between accounts",
+      "Groq AI integration for chat responses",
+      "Express.js/MongoDB backend API",
+      "One-click demo login for quick access"
     ]
   },
   {
