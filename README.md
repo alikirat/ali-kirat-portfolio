@@ -2,7 +2,7 @@
 
 A modern, responsive portfolio website built with React. Optimized for **both employment opportunities and freelance client acquisition**.
 
-**License**: MIT — see below.
+**License**: MIT. See below.
 
 ## ✨ Features
 
@@ -73,7 +73,7 @@ npm run build
 
 ## 📄 License
 
-MIT — see [LICENSE](LICENSE) file for details.
+MIT. See [LICENSE](LICENSE) file for details.
 
 ---
 
