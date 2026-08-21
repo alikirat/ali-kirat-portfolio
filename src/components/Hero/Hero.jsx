@@ -30,9 +30,9 @@ const Hero = () => {
             Open to Full-Time Roles & Freelance Projects
           </p>
           <p className="hero-description fade-in">
-            Full-stack engineer building production web applications with React, 
-            TypeScript, Node.js, and MongoDB. I integrate LLM APIs and AI agent 
-            systems as a core part of how I build — not as an afterthought.
+            Full-stack engineer building production web applications with React,
+            TypeScript, Node.js, and MongoDB. I integrate LLM APIs and AI agent
+            systems as a core part of how I build, not as an afterthought.
           </p>
 
           {/* Tech Stack Badges */}

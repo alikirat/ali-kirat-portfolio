@@ -6,8 +6,8 @@ export const projects = [
     longDescription: "A comprehensive MERN stack application that handles user registration, ride scheduling, and admin management. Built with 12+ protected API endpoints, secure authentication using httpOnly cookies, and deployed across Netlify, Render, and MongoDB Atlas.",
     image: "/images/atlas-taxi.png",
     liveUrl: "https://atlastaxi.netlify.app",
-    githubFrontend: "https://github.com/alikirat/frontend-capstone",
-    githubBackend: "https://github.com/alikirat/backend-capstone",
+    githubFrontend: "https://github.com/alikirat/atlas-taxi-frontend",
+    githubBackend: "https://github.com/alikirat/atlas-taxi-backend",
     tags: ["React", "Node.js", "Express.js", "MongoDB", "JWT", "CSS Modules", "Axios", "bcrypt"],
     featured: true,
     highlights: [
@@ -17,7 +17,7 @@ export const projects = [
       "Admin dashboard with search & sorting",
       "MongoDB indexing for performance",
       "Mobile-first responsive design",
-      "Licensed PolyForm Shield — code is source-available, not open source"
+      "Licensed PolyForm Shield: code is source-available, not open source"
     ]
   },
   {

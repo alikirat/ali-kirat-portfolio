@@ -1,6 +1,7 @@
 export const skills = {
   frontend: [
     { name: "React", icon: "⚛️" },
+    { name: "TypeScript", icon: "🔷" },
     { name: "JavaScript ES6+", icon: "📜" },
     { name: "HTML5", icon: "🌐" },
     { name: "CSS3", icon: "🎨" },
@@ -38,6 +39,7 @@ export const skills = {
   ],
   aiml: [
     { name: "Python", icon: "🐍" },
+    { name: "FastAPI", icon: "⚡" },
     { name: "Google ADK", icon: "🤖" },
     { name: "Gemini AI", icon: "✨" },
     { name: "Multi-Agent Systems", icon: "👥" }
