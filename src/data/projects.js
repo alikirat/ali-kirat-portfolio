@@ -23,7 +23,7 @@ export const projects = [
   {
     id: 6,
     title: "JobMatch AI",
-    description: "AI-powered job search assistant that ingests job postings, scores them against your resume, analyzes skill gaps, and helps optimize your resume content — surfaced through a swipeable review interface. Source-available (PolyForm Noncommercial).",
+    description: "AI-powered job search assistant that ingests job postings, scores them against your resume, analyzes skill gaps, and helps optimize your resume content, all surfaced through a swipeable review interface. Source-available (PolyForm Noncommercial).",
     longDescription: "A full-stack monorepo built around a Google ADK 2.0 agent graph (ingest → ATS gate check → semantic fit scoring → gap analysis → resume optimization), a FastAPI backend with MongoDB persistence, and a React + TypeScript frontend for reviewing scored jobs. Licensed for noncommercial use only.",
     image: "/images/jobmatch-ai.png",
     githubUrl: "https://github.com/alikirat/jobmatch-ai",
@@ -35,7 +35,7 @@ export const projects = [
       "React + TypeScript swipeable review interface",
       "Google ADK 2.0 workflow powered by Gemini",
       "Adzuna API integration for live job ingestion",
-      "Licensed PolyForm Noncommercial — code is source-available, not open source"
+      "Licensed PolyForm Noncommercial: code is source-available, not open source"
     ]
   },
   {
