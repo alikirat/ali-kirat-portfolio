@@ -7,11 +7,16 @@ export const skills = {
     { name: "CSS3", icon: "🎨" },
     { name: "React Router", icon: "🛣️" },
     { name: "Responsive Design", icon: "📱" },
-    { name: "CSS Modules", icon: "💅" }
+    { name: "CSS Modules", icon: "💅" },
+    { name: "Alpine.js", icon: "🏔️" }
   ],
   backend: [
     { name: "Node.js", icon: "🟢" },
     { name: "Express.js", icon: "🚂" },
+    { name: "PHP", icon: "🐘" },
+    { name: "Laravel", icon: "🅻" },
+    { name: "Livewire", icon: "⚡" },
+    { name: "FilamentPHP", icon: "🗂️" },
     { name: "RESTful APIs", icon: "🔌" },
     { name: "JWT Authentication", icon: "🔐" },
     { name: "bcrypt", icon: "🔒" },
@@ -21,6 +26,7 @@ export const skills = {
     { name: "MongoDB", icon: "🍃" },
     { name: "Mongoose ODM", icon: "🦫" },
     { name: "MongoDB Atlas", icon: "☁️" },
+    { name: "MySQL", icon: "🐬" },
     { name: "Database Design", icon: "📊" }
   ],
   tools: [

@@ -76,6 +76,24 @@ export const projects = [
     ]
   },
   {
+    id: 7,
+    title: "Equipment Tracker",
+    description: "Internal tool for tracking physical equipment and asset checkouts. Staff check items in and out with live status updates, admins manage the catalog and checkout history through a separate panel. Source-available (PolyForm Shield).",
+    longDescription: "A Laravel 12 app built stage by stage: Livewire-powered checkout/check-in with no page reloads, an Alpine-driven live search, server-validated maintenance reporting, hand-built session auth, a queued overdue-return email job, and a FilamentPHP admin panel with read-only checkout history to protect the audit trail.",
+    image: "/images/equipment-tracker.png",
+    githubUrl: "https://github.com/alikirat/equipment-tracker",
+    tags: ["Laravel", "Livewire", "Alpine.js", "Tailwind CSS", "MySQL", "FilamentPHP", "PHP"],
+    featured: true,
+    highlights: [
+      "Livewire check-out/check-in flow, no page reloads",
+      "Alpine-powered live search on the equipment list",
+      "Queued overdue-return email notification",
+      "Event/listener pair logging every checkout",
+      "FilamentPHP admin panel with read-only checkout history",
+      "Licensed PolyForm Shield: code is source-available, not open source"
+    ]
+  },
+  {
     id: 5,
     title: "GitHub Repository Gallery",
     description: "Dynamic single-page React application that leverages the GitHub REST API to showcase repositories. Features asynchronous data fetching, client-side filtering, and responsive design with clean state management.",
