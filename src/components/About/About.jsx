@@ -33,8 +33,8 @@ const About = () => {
 
           <div className="about-highlights">
             <div className="highlight-card">
-              <div className="highlight-number">2+</div>
-              <div className="highlight-label">Years Experience</div>
+              <div className="highlight-number">3+</div>
+              <div className="highlight-label">AI-Integrated Projects</div>
             </div>
             <div className="highlight-card">
               <div className="highlight-number">5+</div>
