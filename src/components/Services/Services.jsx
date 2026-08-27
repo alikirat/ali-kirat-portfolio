@@ -11,8 +11,8 @@ const Services = () => {
     {
       icon: <FiCode size={32} />,
       title: "Full-Stack Web Applications",
-      description: "Custom web applications built with the MERN stack. From concept to deployment, I handle database design, API development, and responsive frontend implementation.",
-      features: ["React frontends", "Node.js/Express backends", "MongoDB databases", "RESTful APIs"]
+      description: "Custom web applications built with React/Node.js or PHP/Laravel. From concept to deployment, I handle database design, API development, and responsive frontend implementation.",
+      features: ["React frontends", "Node.js or Laravel backends", "MongoDB or MySQL databases", "RESTful APIs"]
     },
     {
       icon: <FiServer size={32} />,
