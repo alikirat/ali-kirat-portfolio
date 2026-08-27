@@ -13,7 +13,7 @@ const About = () => {
         
         <div className="about-content">
           <div className="about-text">
-            <p>I'm a <strong>full-stack software engineer</strong> based in Claremont, CA, building production web applications using <strong>React, TypeScript, Node.js, and MongoDB</strong>. I work with startups and small businesses to ship clean, maintainable software that solves real problems.
+            <p>I'm a <strong>full-stack software engineer</strong> based in Claremont, CA, building production web applications using <strong>React, TypeScript, Node.js, and PHP/Laravel</strong>. I work with startups and small businesses to ship clean, maintainable software that solves real problems.
           </p>
           <p>
             My background is deliberately non-linear - a decade of teaching, years of 

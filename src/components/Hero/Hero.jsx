@@ -31,7 +31,7 @@ const Hero = () => {
           </p>
           <p className="hero-description fade-in">
             Full-stack engineer building production web applications with React,
-            TypeScript, Node.js, and MongoDB. I integrate LLM APIs and AI agent
+            TypeScript, Node.js, and PHP/Laravel. I integrate LLM APIs and AI agent
             systems as a core part of how I build, not as an afterthought.
           </p>
 
@@ -41,6 +41,7 @@ const Hero = () => {
             <span className="badge">React</span>
             <span className="badge">TypeScript</span>
             <span className="badge">Node.js</span>
+            <span className="badge">PHP/Laravel</span>
             <span className="badge">Python</span>
             <span className="badge">MongoDB</span>
             <span className="badge">LLM APIs</span>
