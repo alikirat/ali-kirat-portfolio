@@ -76,6 +76,55 @@
   font-weight: 500;
 }
 
+.glance-card {
+  background-color: var(--bg-primary);
+  padding: var(--spacing-lg);
+  border-radius: var(--radius-lg);
+  border: 1px solid var(--border);
+}
+
+.glance-title {
+  font-size: 1rem;
+  font-weight: 700;
+  margin-bottom: var(--spacing-md);
+}
+
+.glance-subtitle {
+  font-size: 0.85rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: var(--text-secondary);
+  margin: var(--spacing-lg) 0 var(--spacing-sm);
+}
+
+.glance-list,
+.glance-interests {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-sm);
+  font-size: 0.9rem;
+  line-height: 1.5;
+}
+
+.glance-list strong {
+  color: var(--text-primary);
+  font-weight: 600;
+}
+
+.glance-interests li {
+  display: flex;
+  align-items: baseline;
+  gap: var(--spacing-xs);
+}
+
+.glance-icon {
+  flex-shrink: 0;
+}
+
 /* Mobile Responsive */
 @media (max-width: 968px) {
   .about-content {
