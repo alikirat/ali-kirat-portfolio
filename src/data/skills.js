@@ -15,6 +15,7 @@ export const skills = {
     { name: "Express.js", icon: "🚂" },
     { name: "PHP", icon: "🐘" },
     { name: "Laravel", icon: "🅻" },
+    { name: "WordPress", icon: "📰" },
     { name: "Livewire", icon: "⚡" },
     { name: "FilamentPHP", icon: "🗂️" },
     { name: "RESTful APIs", icon: "🔌" },

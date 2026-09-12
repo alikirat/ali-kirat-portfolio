@@ -1,5 +1,22 @@
 export const projects = [
   {
+    id: 8,
+    title: "WordPress Demo Sites",
+    description: "Four working WordPress.com marketing sites, education, healthcare, SaaS, and local business, built entirely in the block editor with a shared design system and no plugins or paid plan required.",
+    longDescription: "A homepage and four example landing pages built with raw Gutenberg block markup: reusable unsynced patterns, one shared set of design tokens across every page, and a conversion-first structure (clear offer, proof, objection handling, one CTA) on each. Built to show both WordPress delivery skills for clients and technical range beyond the React/Node stack.",
+    image: "/images/wordpress-demo-sites.png",
+    liveUrl: "https://alikirat.wordpress.com",
+    tags: ["WordPress", "Gutenberg Blocks", "Block Editor", "Web Design", "Copywriting"],
+    featured: true,
+    highlights: [
+      "Four live example sites: education, healthcare, SaaS, and local business",
+      "Reusable, unsynced block patterns instead of locked template parts",
+      "One shared design token system (colors, type) across every page",
+      "Conversion-first page structure: offer, proof, objections, one CTA",
+      "No plugins, no paid plan, core blocks only"
+    ]
+  },
+  {
     id: 1,
     title: "Atlas Taxi",
     description: "Production-ready full-stack ride booking platform built for a small taxi business. Features JWT authentication, role-based access control, admin dashboard with search and sorting, and MongoDB data persistence with performance indexing. Source-available (PolyForm Shield).",
