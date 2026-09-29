@@ -1,5 +1,5 @@
 import React from 'react';
-import { FiGithub, FiExternalLink } from 'react-icons/fi';
+import { FiGithub, FiExternalLink, FiVideo } from 'react-icons/fi';
 import './ProjectCard.css';
 
 /**
@@ -13,7 +13,18 @@ const ProjectCard = ({ project }) => {
       {/* Project Image/Placeholder */}
       <div className="project-image">
         {project.image ? (
-          <img src={project.image} alt={project.title} className="project-img" />
+          project.videoUrl ? (
+            <a
+              href={project.videoUrl}
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label={`Watch demo: ${project.title}`}
+            >
+              <img src={project.image} alt={project.title} className="project-img" />
+            </a>
+          ) : (
+            <img src={project.image} alt={project.title} className="project-img" />
+          )
         ) : (
           <div className="project-image-placeholder">
             <span>{project.title.charAt(0).toUpperCase()}</span>
@@ -46,6 +57,17 @@ const ProjectCard = ({ project }) => {
             >
               <FiExternalLink size={18} />
               Live Demo
+            </a>
+          )}
+          {project.videoUrl && (
+            <a
+              href={project.videoUrl}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="project-link"
+            >
+              <FiVideo size={18} />
+              Watch Demo
             </a>
           )}
           {project.githubUrl && (

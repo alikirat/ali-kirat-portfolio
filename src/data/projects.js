@@ -1,5 +1,23 @@
 export const projects = [
   {
+    id: 9,
+    title: "Sunrise Family Clinic Voice Agent",
+    description: "AI phone agent for a clinic. Verifies callers against FHIR patient records, triages requests with Claude, and sends urgent calls to a person before any AI is involved.",
+    longDescription: "A Twilio Voice phone agent for a fictional clinic: callers give their name and date of birth, get verified against a FHIR patient server, and have their request triaged by Claude into one of five categories. Urgent phrases are caught by a keyword check before any model call. A failed match gets one retry, and any API error or repeated failure transfers the caller to a person.",
+    image: "/images/sunrise-clinic-voice-agent.png",
+    videoUrl: "https://youtu.be/aYGwVPTqIp0",
+    githubUrl: "https://github.com/alikirat/clarus-voice-demo",
+    tags: ["Node.js", "Express.js", "Twilio Voice", "Anthropic API", "FHIR", "Vitest"],
+    featured: true,
+    highlights: [
+      "Urgent-phrase check on every caller response, before any model call",
+      "Failed matches get one retry, then transfer to a person; API errors transfer immediately",
+      "PHI-safe logging: only an explicit field allowlist ever gets logged",
+      "Twilio signature validation on every route",
+      "44 automated tests across identity parsing, urgent detection, and the full call flow"
+    ]
+  },
+  {
     id: 8,
     title: "WordPress Demo Sites",
     description: "Four working WordPress.com marketing sites, education, healthcare, SaaS, and local business, built entirely in the block editor with a shared design system and no plugins or paid plan required.",
