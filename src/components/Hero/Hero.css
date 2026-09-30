@@ -31,6 +31,7 @@
   margin-bottom: var(--spacing-md);
   font-weight: 500;
   animation-delay: 0.25s;
+  text-wrap: balance;
 }
 
 .gradient-text {
