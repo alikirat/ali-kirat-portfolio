@@ -27,7 +27,7 @@ const Hero = () => {
             <span className="gradient-text">Full-Stack Software Engineer</span>
           </h2>
           <p className="hero-subtitle fade-in">
-            Full-stack web apps, AI integrations, and data analysis. Open to full-time roles and freelance projects.
+            Full-stack web apps, AI integrations, and data analysis. Open to full-time and freelance work.
           </p>
           <p className="hero-description fade-in">
             Full-stack engineer building production web applications with React,
