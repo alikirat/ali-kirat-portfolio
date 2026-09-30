@@ -74,6 +74,21 @@ export const projects = [
     ]
   },
   {
+    id: 10,
+    title: "COMPAS Re-arrest Analysis",
+    description: "SQL and Pandas analysis of two-year re-arrest outcomes in ProPublica's public COMPAS data. It found a follow-up-window problem that inflated the re-arrest rate from 36.6% to 45.5%, then compared how the risk score's errors differ across groups.",
+    longDescription: "An analysis of ProPublica's public COMPAS data from Broward County, Florida (2013 to 2014). Grouping outcomes by screening month showed that people screened after April 2014 only appear in the file if they were already re-arrested, which inflates the overall two-year rate from 36.6% to 45.5%, so the analysis uses the complete-follow-up cohort and keeps both versions visible in the charts. It then shows how re-arrest rates vary by age and prior record, checks whether the risk score lines up with outcomes, and compares false positive rate, false negative rate and PPV across groups, reproducing the trade-off described by Chouldechova (2017) and Kleinberg et al. (2016). Queries are SQL with window functions in DuckDB, cross-checked in Pandas.",
+    image: "/images/compas-rearrest-analysis.png",
+    githubUrl: "https://github.com/alikirat/compas-rearrest-analysis",
+    tags: ["SQL", "Python", "Pandas", "DuckDB", "Jupyter", "Matplotlib"],
+    featured: true,
+    highlights: [
+      "Four SQL analyses in DuckDB using LAG, running sums, RANK and a 3-month rolling average",
+      "Cleaning pipeline that logs every dropped row and removes personal identifiers before analysis",
+      "Risk-score results computed in both SQL and Pandas, with a check that they match"
+    ]
+  },
+  {
     id: 3,
     title: "Customer Support Graph Agent",
     description: "A multi-agent customer support system built with Google ADK 2.0, featuring a graph workflow that classifies and routes shipping queries using LLM agents.",
