@@ -13,7 +13,7 @@ const Skills = () => {
     { key: 'database', title: 'Database' },
     { key: 'tools', title: 'Tools & Workflow' },
     { key: 'deployment', title: 'Deployment' },
-    { key: 'aiml', title: 'AI & ML' }
+    { key: 'aiml', title: 'AI & Data' }
   ];
 
   return (

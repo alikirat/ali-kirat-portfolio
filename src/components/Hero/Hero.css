@@ -170,6 +170,10 @@
     padding-top: 100px;
   }
 
+  .hero-subtitle {
+    font-size: 1.1rem;
+  }
+
   .hero-description {
     font-size: 1rem;
   }

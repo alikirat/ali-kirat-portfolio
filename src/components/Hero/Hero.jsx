@@ -27,7 +27,7 @@ const Hero = () => {
             <span className="gradient-text">Full-Stack Software Engineer</span>
           </h2>
           <p className="hero-subtitle fade-in">
-            Open to Full-Time Roles & Freelance Projects
+            Full-stack web apps, AI integrations, and data analysis. Open to full-time roles and freelance projects.
           </p>
           <p className="hero-description fade-in">
             Full-stack engineer building production web applications with React,
@@ -43,6 +43,7 @@ const Hero = () => {
             <span className="badge">Node.js</span>
             <span className="badge">PHP/Laravel</span>
             <span className="badge">Python</span>
+            <span className="badge">SQL</span>
             <span className="badge">MongoDB</span>
             <span className="badge">LLM APIs</span>
           </div>
