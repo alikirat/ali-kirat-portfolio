@@ -34,7 +34,7 @@ const About = () => {
             takes the same focus I bring to debugging a stubborn API.
           </p>
           <p>
-            <strong>Available for:</strong> Full-time engineering roles and select freelance projects. Remote preferred, LA area considered.
+            <strong>Available for:</strong> Full-time roles and select freelance projects. Open to in-person, hybrid, or remote across the LA area.
           </p>
           </div>
 
